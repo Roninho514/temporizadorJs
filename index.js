@@ -37,7 +37,6 @@ function iniciarTimer(hora,min,seg){
             }
         }else{
             $somAlarme.play()
-            alert("Seu timer chegou ao fim")
             $btnIniciar.id = "inicia"
             $btnIniciar.innerText = "Iniciar"
             $numeroTimer.style.visibility = "visible"
